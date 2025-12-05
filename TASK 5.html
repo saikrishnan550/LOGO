@@ -7,7 +7,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
     <style>
+
+        .card img{
+            height: 230px;
+            object-fit: contain;
+            
+        }
+
+
+
+        .card-body{
+            height: 130px;
+        }
+
+        .btn{
+
+            margin-left: 60px;
+            
+        }
         
+
+        
+
+        .carousel-item img {
+            height: 550px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+ 
+                
     </style>
 </head>
 
@@ -15,7 +44,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" style="font-weight: bold;"  href="#">LOGO</a>
+        <a class="navbar-brand" style="font-weight: bold; margin-left: 10px;"  href="#"></i>LOGO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,15 +61,15 @@
                 Categories
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Clothes</a></li>
-                <li><a class="dropdown-item" href="#">Watches</a></li>
-                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                <li><a class="dropdown-item" href="#pre">Premium</a></li>
+                <li><a class="dropdown-item" href="#lux">Luxury</a></li>
+                <!-- <li><a class="dropdown-item" href="#">Ultra-Luxury</a></li> -->
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Your Feedback</a></li>
+                <li><a class="dropdown-item" href="#">Feedback</a></li>
             </ul>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1">About Us</a>       <!--aria-disabled="true"-->
+            <a class="nav-link" href="#about" tabindex="-1">About Us</a>       <!--aria-disabled="true"-->
             </li>
         </ul>
         <form class="d-flex">
@@ -50,6 +79,198 @@
         </div>
     </div>
     </nav>
-    
+
+    <!-- <div class="container mt"> -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="ap.webp" class="d-block w-" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-style: italic;">Audemars Piguet</h5>
+            <p style="font-style: italic;">In the heart of the Vallée de Joux, a Swiss region that beats to the tune of complicated watch mechanisms.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="patek-2.avif" class="d-block w-" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-style: italic;">Patek Philippe</h5>
+            <p style="font-style: italic;">The Journey from 1839.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="FP-Journe-1.jpg" class="d-block w-" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-style: italic;">F.P.Journe - Invenit et Fecit</h5>
+            <p style="font-style: italic;">Discover the collections that make every single F.P.Journe a unique model.</p>
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!-- </div> -->
+
+<p style="text-align: center; font-size: 40px; font-family:fantasy; margin-top: 15px;"> IT'S NOT ABOUT TIME ,IT DEFINES WHO YOU ARE </p>
+    <!-- <div class="container">
+    <div class="row">
+        <div class="col-2">
+        ==================
+        ==================
+        </div>
+        <div class="col-8" style="text-align: center; font-weight: bold; font-style: italic; font-size: 22px;">
+        It's Not About Time, It Defines Who You Are
+        </div>
+        <div class="col-2">
+        ==================
+        ==================
+        </div>
+    </div>
+    </div> -->
+
+
+    <div class="container-fluid mt-5 p-2 shadow-sm rounded mb-5" id="pre">
+        <h3 class="text-center text-primary mt-5" style="font-family:'Courier New', Courier, monospace; font-weight: bold;" id="pre">Our Premium Collection</h3>
+          <div class="d-flex justify-content-md-evenly">
+
+                <div class="card" style="width: 15rem;">
+                    <img src="prx-1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Tissot PRX Damascus Steel 38mm <br>₹ 110,500.00</h6>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+ 
+                <div class="card" style="width: 15rem;">
+                    <img src="citizen-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Satellite Wave X - CC3097-52ESatellite Wave GPS<br>₹ 1,59,900</h6>
+                            <!-- <p class="card-text">Some.</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 15rem;">
+                    <img src="seiko-1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Seiko Prospex Asia Pacific <br> Limited Edition 'Sand Bank' <br>₹ 80,000</h5>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 15rem;">
+                    <img src="prx-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Tissot PRX 40mm <br>(Black) <br>₹ 73,500.00</h6>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 15rem;">
+                    <img src="ham-1.avif" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Hamilton <br>Khaki Field Murph Auto <br>₹ 106,300</h5>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+                
+       
+
+
+    </div>
+    </div>
+
+        
+
+
+    <!--2nd Card-->
+        <div class="container-fluid mt-5 p-2 shadow-sm rounded mb-5" id="lux">
+        <h3 class="text-center text-primary mt-5" style="font-family:'Courier New', Courier, monospace; font-weight: bold;" id="pre">Our Luxury Collection</h3>
+          <div class="d-flex justify-content-md-evenly">
+
+                <div class="card" style="width: 15rem;">
+                    <img src="omega-1.avif" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Speedmaster Moonwatch Professional<br>₹ 8,34,500</h6>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+ 
+                <div class="card" style="width: 15rem;">
+                    <img src="fp-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">CHRONOMÈTRE BLEU - <br>Ref. CB<br>Price on Request</h6>
+                            <!-- <p class="card-text">Some.</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 15rem;">
+                    <img src="patek-3.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Patek Philippe <br>Nautilus 5726A-001<br>Price on Request</h5>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 15rem;">
+                    <img src="ap-2.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Audemars Piguet <br>Perpetual Calendar<br>₹ 10,667,000</h6>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 15rem;">
+                    <img src="vach-1.avif" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Tribute to The Quest of Time <br>Price on Request</h5>
+                            <!-- <p class="card-text">Some</p> -->
+                            <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                </div>
+          </div>
+        </div>
+
+        <hr>
+
+
+
+
+
+                <div>
+                    <h3 style="text-align: center; height: 100PX; margin-top: 40px; font-family: sans-serif;">THANK YOU FOR VISITING !!</h2>
+                    </div>
+
+                    <hr>
+
+                <div>
+                    <h5 id="about">About Us</h4>
+                        <p>LOGO is a Online Authentic platform for Watch selling. <br>It has a wide variety of luxury watch collections.</p>
+                </div>
+
+
+
+ 
+       
 </body>
 </html>
